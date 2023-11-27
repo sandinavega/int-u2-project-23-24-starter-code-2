@@ -1,6 +1,8 @@
 /* The code below centers the text of all h1's on the page. */
 h1 {
     text-align:center;
+  font-family: "Comic Sans";
+  
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
@@ -8,22 +10,42 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:400px;
+  width:300px;
 }
 
 /* The code below centers the text of all h2's on the page. */
 h2 {
     text-align:center;
+  font-size: 20px;
+  font-family: "Comic Sans";
 }
-
+.section-1-image{
+  width: 300px;
+  height: 200px;
+}
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
     display:flex;
     justify-content:space-between;
+  text-align:center;
 }
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
-    border: 5px #ff5900 solid;
+    border: 5px white solid;
     margin:5px;
+  /* width:150px;
+  height:70px; */
+}
+
+body {
+  background-color: #060924;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.stop-animal-abuse{
+  border: 5px white solid;
+  padding: 5px;
 }
